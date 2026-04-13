@@ -49,6 +49,10 @@ export const Item = styled.div`
     :hover{
         border: 3px solid #FFF;
     }
+    
+    svg:hover{
+        border: none;
+    }
 
     @media only screen and (min-width: 600px) {
         font-size: 1rem;

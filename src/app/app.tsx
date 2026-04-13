@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Menu from "./components/Menu";
 import Blockchain from "./components/Blockchain";
 import ServiceUnavailable from "./components/ServiceUnavailable";
