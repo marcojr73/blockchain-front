@@ -7,7 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Footer = () => {
     const { t, i18n } = useTranslation()
-    const [isEn, setIsEn] = useState(true);
+    const [isEn, setIsEn] = useState(false);
 
     function changeLanguage() {
         if (isEn) {
